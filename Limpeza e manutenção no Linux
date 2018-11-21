@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Para limpeza do sistema linux
+#Autor:Ivens Ramon
+#sistemas Derivados Debian
+#Email:ivens-oliveira@hotmail.com
+#=================================================================================
+sudo apt autoremove -y
+echo
+sudo apt autoclean -y
+echo
+sudo apt install -f -y
+echo
+sudo apt update ; sudo apt upgrade -y
+exit 0
+#=========================================================================================

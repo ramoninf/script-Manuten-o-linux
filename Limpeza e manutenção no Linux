@@ -11,6 +11,6 @@ sudo apt autoclean -y
 echo
 sudo apt install -f -y
 echo
-sudo apt update ; sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 exit 0
 #=========================================================================================

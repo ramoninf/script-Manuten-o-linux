@@ -11,6 +11,8 @@ sudo apt autoclean -y
 echo
 sudo apt install -f -y
 echo
+ola="sistema atualizando!"
+echo $ola
 sudo apt update && sudo apt upgrade -y
 exit 0
 #=========================================================================================
